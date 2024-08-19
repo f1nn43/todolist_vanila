@@ -1,0 +1,61 @@
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.inner{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.tasks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tasks li {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.tasks li:last-child {
+    border-bottom: none;
+}
+
+#delete{
+    background-color: red;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #777;
+}
